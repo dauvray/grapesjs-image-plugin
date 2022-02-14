@@ -1,0 +1,23 @@
+{
+  "name": "grapesjs-image-plugin",
+  "version": "1.0.238",
+  "description": "Grapesjs Image Plugin",
+  "main": "dist/grapesjs-image-plugin.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dauvray/grapesjs-image-plugin.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^2.0.0"
+  },
+  "license": "MIT"
+}
